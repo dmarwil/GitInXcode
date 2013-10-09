@@ -21,6 +21,7 @@
 		632306521805CCA400A0EFCC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 632306341805CCA400A0EFCC /* UIKit.framework */; };
 		6323065A1805CCA400A0EFCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632306581805CCA400A0EFCC /* InfoPlist.strings */; };
 		6323065C1805CCA400A0EFCC /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323065B1805CCA400A0EFCC /* GitUseExampleTests.m */; };
+		632306671805CEEF00A0EFCC /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 632306661805CEEF00A0EFCC /* MapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		632306571805CCA400A0EFCC /* GitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		632306591805CCA400A0EFCC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6323065B1805CCA400A0EFCC /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		632306651805CEEF00A0EFCC /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
+		632306661805CEEF00A0EFCC /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				632306421805CCA400A0EFCC /* Main.storyboard */,
 				632306451805CCA400A0EFCC /* GITViewController.h */,
 				632306461805CCA400A0EFCC /* GITViewController.m */,
+				632306651805CEEF00A0EFCC /* MapForItinerary.h */,
+				632306661805CEEF00A0EFCC /* MapForItinerary.m */,
 				632306481805CCA400A0EFCC /* Images.xcassets */,
 				632306371805CCA400A0EFCC /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632306671805CEEF00A0EFCC /* MapForItinerary.m in Sources */,
 				6323063D1805CCA400A0EFCC /* main.m in Sources */,
 				632306471805CCA400A0EFCC /* GITViewController.m in Sources */,
 				632306411805CCA400A0EFCC /* GITAppDelegate.m in Sources */,
