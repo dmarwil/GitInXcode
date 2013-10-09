@@ -28,5 +28,7 @@
 
 - (IBAction)gitButton:(id)sender {
     NSLog(@"This is a git example project");
+    //test comment
+    //more changes
 }
 @end
