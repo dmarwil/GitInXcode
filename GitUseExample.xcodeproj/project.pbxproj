@@ -22,6 +22,7 @@
 		6323065A1805CCA400A0EFCC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 632306581805CCA400A0EFCC /* InfoPlist.strings */; };
 		6323065C1805CCA400A0EFCC /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6323065B1805CCA400A0EFCC /* GitUseExampleTests.m */; };
 		632306671805CEEF00A0EFCC /* MapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 632306661805CEEF00A0EFCC /* MapForItinerary.m */; };
+		6323066A1805CF5900A0EFCC /* GITMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 632306691805CF5900A0EFCC /* GITMap.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		6323065B1805CCA400A0EFCC /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
 		632306651805CEEF00A0EFCC /* MapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapForItinerary.h; sourceTree = "<group>"; };
 		632306661805CEEF00A0EFCC /* MapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapForItinerary.m; sourceTree = "<group>"; };
+		632306681805CF5900A0EFCC /* GITMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GITMap.h; sourceTree = "<group>"; };
+		632306691805CF5900A0EFCC /* GITMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GITMap.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 			children = (
 				6323063F1805CCA400A0EFCC /* GITAppDelegate.h */,
 				632306401805CCA400A0EFCC /* GITAppDelegate.m */,
+				632306681805CF5900A0EFCC /* GITMap.h */,
+				632306691805CF5900A0EFCC /* GITMap.m */,
 				632306421805CCA400A0EFCC /* Main.storyboard */,
 				632306451805CCA400A0EFCC /* GITViewController.h */,
 				632306461805CCA400A0EFCC /* GITViewController.m */,
@@ -259,6 +264,7 @@
 				6323063D1805CCA400A0EFCC /* main.m in Sources */,
 				632306471805CCA400A0EFCC /* GITViewController.m in Sources */,
 				632306411805CCA400A0EFCC /* GITAppDelegate.m in Sources */,
+				6323066A1805CF5900A0EFCC /* GITMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
